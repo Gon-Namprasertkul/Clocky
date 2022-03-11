@@ -2,13 +2,13 @@
 #include <time.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include<string>
+#include <string>
 
 
 int main () {
    while(1) {
    WINDOW * win = initscr();
-   box(win, 0,0);
+   box(win,0,0);
    refresh();
    erase();
    int row,col;

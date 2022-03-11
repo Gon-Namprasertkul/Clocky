@@ -11,7 +11,6 @@ all: $(OBJS)
 
 obj/main.o: src/main.cpp
 	@echo "Compiling Main source..."
-	@sleep 1
 	@$(CC) $(FLAGS) src/main.cpp -o obj/main.o
 	@echo "Compiled src/main.cpp"	
 
