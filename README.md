@@ -1,5 +1,5 @@
 # Clocky
-A clock software for omega
+A normal clock for normal people
 
 # Installation
 
