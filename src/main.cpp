@@ -7,7 +7,8 @@
 
 int main () {
    while(1) {
-   initscr();
+   WINDOW * win = initscr();
+   box(win, 0,0);
    refresh();
    erase();
    int row,col;

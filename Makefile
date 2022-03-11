@@ -5,10 +5,15 @@ CC	 = g++
 FLAGS	 = -lncurses -g -c -Wall
 
 all: $(OBJS)
-	$(CC)  $(OBJS) -o $(OUT) -lncurses
+	@echo "Building..."
+	@$(CC)  $(OBJS) -o $(OUT) -lncurses
+	@echo "Built successfully"
 
 obj/main.o: src/main.cpp
-	$(CC) $(FLAGS) src/main.cpp -o obj/main.o 
+	@echo "Compiling Main source..."
+	@sleep 1
+	@$(CC) $(FLAGS) src/main.cpp -o obj/main.o
+	@echo "Compiled src/main.cpp"	
 
 
 clean:
