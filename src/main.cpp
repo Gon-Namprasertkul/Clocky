@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string>
-
+#include <cstring>
 
 int main () {
    while(1) {
