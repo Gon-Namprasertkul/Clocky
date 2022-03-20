@@ -8,6 +8,7 @@
 int main () {
    while(1) {
    WINDOW * win = initscr();
+   curs_set(0);
    box(win,0,0);
    refresh();
    erase();
